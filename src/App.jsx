@@ -2,6 +2,7 @@ import React from "react";
 import CountdownTimer from "./components/CountdownTimer";
 import LetterFromSecretariat from "./components/LetterFromSecretariat";
 import SecretariatSection from "./components/SecretariatSection";
+import Committee from "./components/Committee";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <CountdownTimer />
       <LetterFromSecretariat />
       <SecretariatSection />
+      <Committee />
     </div>
   );
 };
